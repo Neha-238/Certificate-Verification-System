@@ -49,7 +49,7 @@ certificate ID, view the populated certificate, and download it.
 o Certificate Template: Design a React component that dynamically populates and
 displays the certificate based on the retrieved data.
 
-<b>3. Certificate Generation:</b>
+<b>3. Certificate Generation:</b> <br>
           <b>PDF Creation:</b> Integrate a library such as pdfkit or jsPDF to generate and
           download certificates in PDF format. Ensure that the PDF includes all relevant
           details and adheres to the defined format.
