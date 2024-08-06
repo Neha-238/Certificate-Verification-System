@@ -1,0 +1,33 @@
+/* admin.css */
+
+.admin-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-message {
+  background-color: #f8f9fa; /* Light background for the welcome message */
+  padding: 1rem; /* Padding around the message */
+  border-bottom: 1px solid #dee2e6; /* Border to separate from the main content */
+  margin-bottom: 1rem; /* Margin bottom for spacing */
+  width: 100%;
+  text-align: center;
+}
+
+.admin-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align items horizontally */
+  
+}
+
+.upload-form {
+  width: 100%;
+  max-width: 500px; /* Set a max-width to limit the form width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.logout-button {
+  margin-bottom: 1rem; /* Add margin bottom for spacing */
+}

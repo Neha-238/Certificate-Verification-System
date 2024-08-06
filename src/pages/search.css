@@ -1,0 +1,72 @@
+/* Search.css */
+.search-form {
+    background-color: #ffffff; /* Light background color for form */
+    color: #333; /* Dark text for readability */
+    padding: 2rem; /* Padding inside the form */
+    border-radius: 12px; /* Rounded corners */
+    border: 2px solid #e9ecef; /* Border color matching the navbar */
+    max-width: 400px; /* Smaller max-width for a vertical layout */
+    width: 100%; /* Full width on smaller screens */
+    margin: auto; /* Center horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  .logout-button {
+    border-color: #364bc5;
+    color: #364bc5;
+  }
+  
+  .logout-button:hover {
+    background-color: #364bc5;
+    
+    color: white;
+    border-color: #364bc5;
+  }
+  
+  
+  .welcome-message{
+    background-color: rgb(211, 185, 242);
+  }
+  .search-form h2 {
+    color: #333; /* Dark text for heading */
+    margin-bottom: 1.5rem; /* Space below heading */
+  }
+  
+  .search-form .form-control {
+    border-color: #ced4da; /* Light border for input fields */
+    background-color: #f8f9fa; /* Slightly off-white background for inputs */
+    color: #495057; /* Darker text color for inputs */
+  }
+  
+  .search-form .form-control::placeholder {
+    color: #6c757d; /* Placeholder text color */
+  }
+  
+  .search-form .form-group {
+    margin-bottom: 1.5rem; /* Space between form controls */
+  }
+  
+  .search-form .btn-primary {
+    background-color: #364bc5; /* Button color */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners for button */
+  }
+  
+  .search-form .btn-primary:hover {
+    background-color: #4e5fbe; /* Button color */
+  /* Darker shade on hover */
+  }
+  
+  .search-form .mt-3 {
+    margin-top: 1.5rem; /* Space between elements */
+  }
+
+  
+  
+  @media (max-width: 576px) {
+    .search-form {
+      padding: 1.5rem; /* Adjust padding for small screens */
+      width: 90%; /* Ensure form is not too wide on small screens */
+    }
+  }
+  

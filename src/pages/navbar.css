@@ -1,0 +1,43 @@
+/* Navbar.css */
+.navbar-custom {
+    background-color: #f8f9fa; /* Light background color */
+    border-bottom: 2px solid #e9ecef; /* Light border at the bottom */
+  }
+
+  .brand-custom {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #ffffff; /* Brand text color */
+  }
+  
+  .navbar-custom .navbar-brand {
+    color: #FF7700; /* Dark color for brand text */
+    font-size: x-large;
+  }
+
+  
+  .navbar-custom .nav-link {
+    
+    color: black;
+    margin: 0 15px; /* Spacing between links */
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color:#364bc5 /* Blue color on hover */
+  }
+  
+  .navbar-custom .navbar-toggler-custom {
+    border: none; /* Remove default border */
+    background-color: transparent; /* Transparent background for the button */
+  }
+  
+  .navbar-custom .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"%3E%3Cpath fill="none" stroke="%23333" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/%3E%3C/svg%3E'); /* Custom icon */
+  }
+  
+  .navbar-custom .navbar-collapse {
+    justify-content: center; /* Center align the menu items */
+  }
+  

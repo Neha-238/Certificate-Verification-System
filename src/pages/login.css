@@ -1,0 +1,49 @@
+/* Login.css */
+
+
+  .login-form {
+    background-color: #ffffff; /* Light background color */
+    color: #343a40; /* Dark text for readability */
+    padding: 2rem; /* Ensure adequate padding around the form */
+    border-radius: 8px; /* Rounded corners for the form */
+    border: 2px solid black; /* Border color matching the navbar background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+  }
+  
+  .login-form h2 {
+    color: #343a40; /* Dark text for the heading */
+  }
+
+  
+  
+  .login-form .form-control {
+    border-color: #ced4da; /* Light border for form controls */
+    background-color: #ffffff; /* White background for form controls */
+    color: #495057; /* Darker text color for form controls */
+  }
+  
+  .login-form .form-control::placeholder {
+    color: #6c757d; /* Gray placeholder text */
+  }
+  
+  .login-form .form-group {
+    margin-bottom: 1.5rem; /* Space between form controls */
+  }
+  
+  .login-form .btn-primary {
+    background-color: #364bc5; /* Bootstrap primary button color */
+    border: none; /* Remove border */
+    margin-top: 1rem; /* Space between the last form control and the button */
+  }
+  
+  .login-form .btn-primary:hover {
+    background-color: #4e5fbe; /* Darker shade on hover */
+  }
+  
+  @media (max-width: 576px) {
+    .login-form {
+      padding: 2rem;
+      width: 90%;
+    }
+  }
+  
