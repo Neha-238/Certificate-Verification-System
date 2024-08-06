@@ -7,21 +7,21 @@ certificates using unique certificate IDs, view their details, and download them
 
 <b>Features:</b> <br>
 <b>1. Admin Interface:</b>
- Excel Data Upload: Admins can upload an Excel file containing student
-information, such as certificate ID, student name, internship domain, starting date,
-and ending date. The system processes the Excel data and stores it in a MongoDB
-database.
- Data Validation: The system validates the data from the Excel sheet to ensure
-accuracy and completeness before storing it.
+            <b>Excel Data Upload:</b> Admins can upload an Excel file containing student
+               information, such as certificate ID, student name, internship domain, starting date,
+               and ending date. The system processes the Excel data and stores it in a MongoDB
+               database. <br>
+            <b>Data Validation:</b> The system validates the data from the Excel sheet to ensure
+             accuracy and completeness before storing it.
 
-<b>2. User Interface:</b>
- Certificate Retrieval: Students can search for their certificates using a unique
-certificate ID. The system retrieves and displays the relevant certificate details,
-including the student’s name, internship domain, and the dates of the internship.
- Certificate Display: A certificate template with fields (student name, internship
-domain, and dates) is populated dynamically based on the search results.
- Download Option: Students can download their certificate in a specified format
-(e.g., PDF) after viewing it.
+<b>2. User Interface:</b> <br>
+         <b>Certificate Retrieval:</b> Students can search for their certificates using a unique
+            certificate ID. The system retrieves and displays the relevant certificate details,
+            including the student’s name, internship domain, and the dates of the internship. <br>
+         <b>Certificate Display:</b> A certificate template with fields (student name, internship
+            domain, and dates) is populated dynamically based on the search results. <br>
+         <b> Download Option:</b> Students can download their certificate in a specified format
+             (e.g., PDF) after viewing it.<br>
 
 <b>3. Certificate Management:</b>
          <b>Certificate Format:</b> The system includes a predefined certificate format with
