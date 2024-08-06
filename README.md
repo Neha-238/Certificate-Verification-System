@@ -31,8 +31,8 @@ in the certificate format are automatically filled with the student’s informat
 dates, ensuring students have all necessary details.
 
 Implementation:
-1. Backend (Node.js & Express.js):
- API Endpoints: Create RESTful API endpoints to handle data upload, retrieval,
+ Backend (Node.js & Express.js):
+ 1. API Endpoints: Create RESTful API endpoints to handle data upload, retrieval,
 and processing. For example, endpoints for uploading Excel files, retrieving
 certificate details by ID, and generating downloadable certificates.
  Data Processing: Use libraries like xlsx or exceljs to parse the Excel files and
