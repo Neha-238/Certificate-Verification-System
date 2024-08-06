@@ -6,7 +6,7 @@ processed and stored in a MongoDB database. Students can subsequently search for
 certificates using unique certificate IDs, view their details, and download them.
 
 <b>Features:</b> <br>
-<b>1. Admin Interface:</b>
+<b>1. Admin Interface:</b> <br>
             <b>Excel Data Upload:</b> Admins can upload an Excel file containing student
                information, such as certificate ID, student name, internship domain, starting date,
                and ending date. The system processes the Excel data and stores it in a MongoDB
@@ -23,7 +23,7 @@ certificates using unique certificate IDs, view their details, and download them
          <b> Download Option:</b> Students can download their certificate in a specified format
              (e.g., PDF) after viewing it.<br>
 
-<b>3. Certificate Management:</b>
+<b>3. Certificate Management:</b> <br>
          <b>Certificate Format:</b> The system includes a predefined certificate format with
           placeholders for the certificate data. Once the student’s ID is searched, the fields
           in the certificate format are automatically filled with the student’s information. <br>
