@@ -9,11 +9,8 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 =======
 # Certificate-Verification-System
-The Certificate Verification System is designed to streamline the management and retrieval of
-certificates for students. Built using the MERN stack (MongoDB, Express.js, React, and
-Node.js), this system allows administrators to upload student data in Excel format, which is then
-processed and stored in a MongoDB database. Students can subsequently search for their
-certificates using unique certificate IDs, view their details, and download them.
+The Certificate Verification System is designed to streamline the process of issuing and verifying internship certificates. This web application enables administrators to upload student data via an Excel sheet, which includes details such as certificate ID, student name, internship domain, and internship start and end dates. Once the data is uploaded, students can search for their certificate using their certificate ID. The system then displays their certificate with all the relevant information pre-filled and allows students to download it. This project leverages the MERN stack(MongoDB, Express.js, React.js, and
+Node.js) to ensure efficient data handling and a seamless user experience.
 
 <b>Features:</b> <br> <br>
 <b>1. Admin Interface:</b> <br>
