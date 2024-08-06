@@ -5,6 +5,7 @@ import Home from "./pages/home";
 import Login from "./pages/login";
 import Register from "./pages/register";
 import Search from "./pages/search";
+import NotFound from "./pages/NotFound";
 
 function App() {
   const [loggedInAdminEmail, setLoggedInAdminEmail] = useState(null);
