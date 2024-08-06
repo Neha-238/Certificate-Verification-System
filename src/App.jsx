@@ -11,7 +11,7 @@ function App() {
   const navigate = useNavigate();
 
   const handleLogin = (email, role) => {
-    setLoggedInEmail(email);
+    setLoggedInAdminEmail(email);
     if (role === "Admin") {
       navigate("/admin", { state: { email } }); // Pass email to AdminUpload via state
     } else {
@@ -30,6 +30,7 @@ function App() {
           path="/admin"
           element={<AdminUpload adminEmail={loggedInAdminEmail} />}
         />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );
