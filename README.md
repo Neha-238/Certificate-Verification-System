@@ -5,7 +5,7 @@ Node.js), this system allows administrators to upload student data in Excel form
 processed and stored in a MongoDB database. Students can subsequently search for their
 certificates using unique certificate IDs, view their details, and download them.
 
-<b>Features:</b>
+<b>Features:</b> <br>
 <b>1. Admin Interface:</b>
  Excel Data Upload: Admins can upload an Excel file containing student
 information, such as certificate ID, student name, internship domain, starting date,
@@ -26,7 +26,7 @@ domain, and dates) is populated dynamically based on the search results.
 <b>3. Certificate Management:</b>
          <b>Certificate Format:</b> The system includes a predefined certificate format with
           placeholders for the certificate data. Once the student’s ID is searched, the fields
-          in the certificate format are automatically filled with the student’s information.
+          in the certificate format are automatically filled with the student’s information. <br>
          <b>Date Display:</b> The certificate will include the internship’s starting and ending
           dates, ensuring students have all necessary details.
 
