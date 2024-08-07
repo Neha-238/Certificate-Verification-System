@@ -4,6 +4,7 @@ import axios from "axios";
 import "./login.css"; // Import custom CSS
 import AppNavbar from "./navbar";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -91,8 +92,9 @@ const Login = () => {
             <Button variant="primary" type="submit" className="w-100">
               Login
             </Button>
+
             <div className="text-center mt-3">
-              <a href="/register">Don't have an account? Register here</a>
+              <Link to="/register">Don't have an account? Register here</Link>
             </div>
           </Form>
         </div>

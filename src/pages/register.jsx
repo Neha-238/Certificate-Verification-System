@@ -3,6 +3,7 @@ import { Container, Form, Button, Alert } from "react-bootstrap";
 import axios from "axios";
 import "./register.css"; // Import custom CSS
 import AppNavbar from "./navbar";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   const [email, setEmail] = useState("");
@@ -81,8 +82,9 @@ const Register = () => {
             <Button variant="primary" type="submit" className="w-100">
               Register
             </Button>
+
             <div className="text-center mt-3">
-              <a href="/login">Already have an account? Login here</a>
+              <Link to="/login">Already have an account? Login here</Link>
             </div>
           </Form>
         </div>
