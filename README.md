@@ -40,7 +40,7 @@ Node.js) to ensure efficient data handling and a seamless user experience.
 <b>Implementation:</b> <br> <br>
  <b>Backend (Node.js & Express.js):</b>
  
- <b>1. API Endpoints:</b> Create RESTful API endpoints to handle data upload, retrieval,
+ <b>1. API Endpoints:</b> Create <i>RESTful API</i> endpoints to handle data upload, retrieval,
 and processing. For example, endpoints for uploading Excel files, retrieving
 certificate details by ID, and generating downloadable certificates.
  Data Processing: Use libraries like xlsx or exceljs to parse the Excel files and
@@ -57,7 +57,7 @@ o Certificate Template: Design a React component that dynamically populates and
 displays the certificate based on the retrieved data.
 
 <b>3. Certificate Generation:</b> <br>
-          <b>PDF Creation:</b> Integrate a library such as pdfkit or jsPDF to generate and
+          <b>PDF Creation:</b> Integrate a library such as <i>pdfkit</i> or <i>jsPDF</i> to generate and
           download certificates in PDF format. Ensure that the PDF includes all relevant
           details and adheres to the defined format.
 
